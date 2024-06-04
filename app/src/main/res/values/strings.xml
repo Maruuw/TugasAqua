@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">AQUA</string>
+    <string name="email_oliv">olivia.gabrielle@gmail.com</string>
+    <string name="selamatpagi">Selamat Pagi </string>
+    <string name="scan">Scan kode dibalik tutup botol dan tukarkan hadiah menarik</string>
+    <string name="jumlah_Tbotol">30</string>
+    <string name="jumlah_Tbotola">30</string>
+    <string name="Vaganza">Vaganza Fiesta</string>
+    <string name="hadiahmenarik">Hadiah Menarik</string>
+    <string name="scan_tutup_">Scan Tutup Botol</string>
+    <string name="total_tutup">Total Tutup Botol\n<b>Olivia Gabrielle</b> <font color="#1A529D">30</font></string>
+    <string name="setiap_kali">Setiap kali Anda berhasil memindai kode yang belum pernah diklaim sebelumnya, Anda akan menerima 1 poin.</string>
+    <string name="scan_ktp_un">Scan KTP untuk melanjutkan proses klaim tutup botol. Pastikan foto KTP terlihat dengan jelas</string>
+    <string name="scan_ktp">Scan KTP</string>
+    <string name="redeemvagan">RedeemVaganza</string>
+    <string name="some1_id">400</string>
+    <string name="diskon70h">Diskon 70% Hotel\ndi Aplikasi Traveloka</string>
+    <string name="selamat_and">Selamat Anda Berhasil\nKlaim Tutup Botol 🎉</string>
+    <string name="klaim_tutup">Klaim tutup botol lainnya dan\ntukarkan hadiah menarik</string>
+    <string name="some_id">400</string>
+    <string name="selamat_anda">Selamat Anda Mendapatkan\nUndian ExtraVaganza🎉</string>
+    <string name="royalvaganz">Royalvaganza</string>
+    <string name="liburan_mud">Liburan mudah dengan penginapan harga murah. Memberikan diskon segala jenis hotel / penginapan yang tersedia di aplikasi traveloka dengan tanda \u00e2\u0080\u009cdiskon redeem aqua\u00e2\u0080\u009d. Dapatkan diskon hingga 70 persen. Berlaku untuk pengguna aplikasi traveloka. Kumpulkan poin sebanyak-banyak sesuai syarat dan ketentuan di bawah. </string>
+    <string name="diskon_70_h">Diskon 70% Hotel Traveloka </string>
+    <string name="syarat_kete">Syarat &amp; Ketentuan </string>
+    <string name="jumlah_mini">
+        - Jumlah minimal 200 poin\n
+        - Sudah memiliki akun di Traveloka\n
+        - Bersedia digantikan diskon yang lain jika diskon ini sudah habis\n
+        - Penukaran bisa dilakukan kapan saja</string>
+    <string name="jumlah_penu">  Jumlah Penukaran</string>
+    <string name="total_poin">  Total Poin</string>
+    <string name="sistem">Sistem</string>
+    <string name="pengguna_me">Pengguna memenangkan undian hadiah royal (big prize)</string>
+    <string name="pengguna_me1">Pengguna menukarkan hadiah dengan memilih dari katalog</string>
+    <string name="kapan_saja_">Kapan saja selama periode program masih aktif</string>
+    <string name="penukaran">Periode\nPenukaran</string>
+    <string name="setiap_akhi">Setiap akhir bulan</string>
+    <string name="setiap_akhir">Setiap akhir periode</string>
+</resources>

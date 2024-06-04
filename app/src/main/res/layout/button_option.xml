@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/iconpeople"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="60dp"
+            app:srcCompat="@drawable/people_icon" />
+
+        <ImageView
+            android:id="@+id/iconsetting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="120dp"
+            app:srcCompat="@drawable/setting_icon" />
+
+        <ImageView
+            android:id="@+id/iconbookmark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="180dp"
+            app:srcCompat="@drawable/bookmark" />
+
+        <ImageView
+            android:id="@+id/icon_notifikasi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="38dp"
+            android:layout_marginTop="240dp"
+            app:srcCompat="@drawable/notifikasi_icon" />
+
+        <ImageView
+            android:id="@+id/iconlogout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="300dp"
+            app:srcCompat="@drawable/logout_icon" />
+
+        <TextView
+            android:id="@+id/textprofil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="60dp"
+            android:fontFamily="@font/montserrat_regular"
+            android:text="Profil"
+            android:textColor="@color/semi_black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textpengaturan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="120dp"
+            android:fontFamily="@font/montserrat_regular"
+            android:text="Pengaturan"
+            android:textColor="@color/semi_black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textbookmark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="180dp"
+            android:fontFamily="@font/montserrat_regular"
+            android:text="Bookmark"
+            android:textColor="@color/semi_black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textnotifikasi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Notifikasi"
+            android:fontFamily="@font/montserrat_regular"
+            android:textSize="20dp"
+            android:textColor="@color/semi_black"
+            android:layout_marginTop="240dp"
+            android:layout_marginLeft="80dp"/>
+
+        <TextView
+            android:id="@+id/textlogout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="300dp"
+            android:fontFamily="@font/montserrat_regular"
+            android:text="Logout"
+            android:textColor="@color/semi_black"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:id="@+id/garisbar1"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="100dp"
+            app:srcCompat="@drawable/garisbar" />
+
+        <ImageView
+            android:id="@+id/garisbar2"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="160dp"
+            app:srcCompat="@drawable/garisbar" />
+
+        <ImageView
+            android:id="@+id/garisbar3"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="220dp"
+            app:srcCompat="@drawable/garisbar" />
+
+        <ImageView
+            android:id="@+id/garisbar4"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="280dp"
+            android:layout_marginLeft="28dp"
+            app:srcCompat="@drawable/garisbar" />
+
+        <ImageView
+            android:id="@+id/garisbar5"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="340dp"
+            app:srcCompat="@drawable/garisbar" />
+
+ </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

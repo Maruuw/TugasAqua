@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scaleType="fitXY"
+    android:background="@drawable/bg_undianvg"
+    tools:context=".Mainklaimtutup">
+
+    <RelativeLayout
+        android:id="@+id/group_389"
+        android:layout_width="362dp"
+        android:layout_height="139dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.394">
+
+        <TextView
+            android:id="@+id/selamat_and"
+            android:layout_width="391dp"
+            android:layout_height="124dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="-18dp"
+            android:fontFamily="@font/montserrat_semibold"
+            android:gravity="center_horizontal|center_vertical"
+            android:lineHeight="30sp"
+            android:text="@string/selamat_and"
+            android:textAppearance="@style/selamat_and" />
+
+        <TextView
+            android:id="@+id/klaim_tutup"
+            android:layout_width="300dp"
+            android:layout_height="63dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="37dp"
+            android:layout_marginTop="82dp"
+            android:fontFamily="@font/montserrat_regular"
+            android:gravity="center_horizontal|center_vertical"
+            android:lineHeight="22sp"
+            android:text="@string/klaim_tutup"
+            android:textAppearance="@style/klaim_tutup" />
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

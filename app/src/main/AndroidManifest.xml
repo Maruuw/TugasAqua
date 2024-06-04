@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tugasaqua">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TugasAqua">
+        <activity
+            android:name=".MainBerandaUtama"
+            android:exported="true" />
+        <activity
+            android:name=".MainBerandaUtama2"
+            android:exported="true" />
+        <activity
+            android:name=".Main_klaim_tb"
+            android:exported="true" />
+        <activity
+            android:name=".Main_redeem_royalvaganza"
+            android:exported="true" />
+        <activity
+            android:name=".Main_redeemvgkatalog"
+            android:exported="true" />
+        <activity
+            android:name=".Main_undian_evg"
+            android:exported="true" />
+        <activity
+            android:name=".Mainscan_KTP"
+            android:exported="true" />
+        <activity
+            android:name=".Mainspinwheel_april"
+            android:exported="true" />
+        <activity
+            android:name=".Mainspinwheel_periode"
+            android:exported="true" />
+        <activity
+            android:name=".Mainscan_tutupbotol"
+            android:exported="true" />
+        <activity
+            android:name=".MainButtonBar"
+            android:exported="true" />
+        <activity
+            android:name=".Mainlogin"
+            android:exported="true" />
+        <activity
+            android:name=".Mainenterlogin"
+            android:exported="true" />
+        <activity
+            android:name=".Mainregister"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
